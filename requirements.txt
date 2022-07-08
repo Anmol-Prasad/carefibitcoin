@@ -1,55 +1,21 @@
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
-anaconda-client @ file:///C:/ci/anaconda-client_1635342725944/work
+
 anaconda-navigator==2.1.1
-anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1626085644852/work
-anyio @ file:///C:/ci/anyio_1620153135622/work/dist
 appdirs==1.4.4
 argh==0.26.2
-argon2-cffi @ file:///C:/ci/argon2-cffi_1613037869401/work
-arrow @ file:///C:/ci/arrow_1617738834352/work
 asgiref==3.5.2
-asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
-astroid @ file:///C:/ci/astroid_1628063282661/work
-astropy @ file:///C:/ci/astropy_1629829318700/work
-async-generator @ file:///home/ktietz/src/ci/async_generator_1611927993394/work
 atomicwrites==1.4.0
-attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
-autopep8 @ file:///tmp/build/80754af9/autopep8_1620866417880/work
-Babel @ file:///tmp/build/80754af9/babel_1620871417480/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-backports.functools-lru-cache @ file:///tmp/build/80754af9/backports.functools_lru_cache_1618170165463/work
-backports.shutil-get-terminal-size @ file:///tmp/build/80754af9/backports.shutil_get_terminal_size_1608222128777/work
-backports.tempfile @ file:///home/linux1/recipes/ci/backports.tempfile_1610991236607/work
 backports.weakref==1.0.post1
-bcrypt @ file:///C:/ci/bcrypt_1607022693089/work
-beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1631874778482/work
-binaryornot @ file:///tmp/build/80754af9/binaryornot_1617751525010/work
-bitarray @ file:///C:/ci/bitarray_1629133068652/work
 bkcharts==0.2
 black==19.10b0
-bleach @ file:///tmp/build/80754af9/bleach_1628110601003/work
-bokeh @ file:///C:/ci/bokeh_1635306491714/work
 boto==2.49.0
-Bottleneck @ file:///C:/ci/bottleneck_1607557040328/work
 brotlipy==0.7.0
-cached-property @ file:///tmp/build/80754af9/cached-property_1600785575025/work
 certifi==2021.10.8
-cffi @ file:///C:/ci/cffi_1625831756778/work
-chardet @ file:///C:/ci/chardet_1607706937985/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
 click==8.0.3
-cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
 clyent==1.2.2
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
 colorlover==0.3.0
 comtypes==1.1.10
 conda==4.13.0
 conda-build==3.21.6
-conda-content-trust @ file:///tmp/build/80754af9/conda-content-trust_1617045594566/work
-conda-pack @ file:///tmp/build/80754af9/conda-pack_1611163042455/work
-conda-package-handling @ file:///C:/ci/conda-package-handling_1618262410900/work
-conda-repo-cli @ file:///tmp/build/80754af9/conda-repo-cli_1620168426516/work
-conda-token @ file:///tmp/build/80754af9/conda-token_1620076980546/work
 conda-verify==3.4.2
 contextlib2 @ file:///Users/ktietz/demo/mc3/conda-bld/contextlib2_1630668244042/work
 cookiecutter @ file:///tmp/build/80754af9/cookiecutter_1617748928239/work
