@@ -1,0 +1,23 @@
+{% load static %}
+
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="{% static 'bitcoin/style.css' %}"
+/>
+
+<h1 style=" text-align : center ; margin-top:100px">BITCOIN Live Price Tracker</h1>
+<div style="text-align: center; font-size : 60px">     ₹ {{apidata.0.current_price}} </div>
+
+
+  <form action="" method="POST">
+    {% csrf_token %}
+    <input type="hidden" value="{{apidata.0.name}}" name="name" />
+    <input type="hidden" value="{{apidata.0.symbol}}" name="symbol" />
+    <input type="hidden" value="{{apidata.0.current_price}}" name="price" />
+    <input type="submit" value="EXPORT TO DATABASE" style="width:350px; padding:7px; font-size: 22.5px; margin-top: 50px; margin-left:38.5%" />
+  </form>
+  <a href="/login" ><button style="width:350px; padding:7px; font-size: 22.5px; margin-top: 20px; margin-left:38.5%">LOGIN</button>
+  <a href="/getbtc" ><button style="width:350px; padding:7px; font-size: 22.5px; margin-top: 20px; margin-left:38.5%">VIEW DATABASE</button></a>
+
+</div>
