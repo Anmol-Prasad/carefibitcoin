@@ -2,7 +2,6 @@
 appdirs==1.4.4
 argh==0.26.2
 asgiref==3.5.2
-atomicwrites==1.4.0
 backports.weakref==1.0.post1
 bkcharts==0.2
 black==19.10b0
