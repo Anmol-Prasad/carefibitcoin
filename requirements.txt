@@ -19,7 +19,7 @@ cytoolz==0.11.0
 daal4py==2021.3.0
 dask==2021.10.0
 distlib==0.3.4
-Django==4.0.5
+Django==3.2.14
 entrypoints==0.3
 et-xmlfile==1.1.0
 fonttools==4.25.0

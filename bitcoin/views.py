@@ -6,6 +6,9 @@ from datetime import datetime
 from django.contrib.auth import authenticate
 
 
+# THIS FUNCTION WILL FETCH LIVE BITCOIN PRICE provided by Coingecko API and POST the required contents (name, timestamp, current price) on the database
+
+
 def index(request):
     apidata = requests.get(
         'https://api.coingecko.com/api/v3/coins/markets?vs_currency=inr&order=market_cap_desc&per_page=100&page=1&sparkline=false').json()
@@ -21,15 +24,7 @@ def index(request):
     return render(request, ('index.html'), {'apidata': apidata})
 
 
-def logindata(request):
-    if request.method == "POST":
-        user = authenticate(
-            username=request.POST['username'], password=request.POST['password'])
-        if user is not None:
-            print('Authenticated')
-        else:
-            print('Not')
-    return render(request, 'login.html')
+# THIS FUNCTION WILL FETCH THE LIST OF ALL BITCOIN PRICES STORED IN DATABASE TABLE using GET request but it would only work if the user is authenticated or else would return 401 Http Response
 
 
 def getdata(request):
@@ -39,3 +34,15 @@ def getdata(request):
         allData = Coindata.objects.all()
         print(allData)
         return render(request, ('btcdata.html'), {"datas": allData})
+
+
+# THIS FUNCTION WILL ALLOW REGISTERED USERS TO LOGIN INTO THE SITE
+def logindata(request):
+    if request.method == "POST":
+        user = authenticate(
+            username=request.POST['username'], password=request.POST['password'])
+        if user is not None:
+            print('Authenticated')
+        else:
+            print('Not')
+    return render(request, 'login.html')
